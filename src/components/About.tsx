@@ -26,7 +26,7 @@ export default function About() {
         {/* Deskripsi */}
         <div className="text-center md:text-left text-gray-400 space-y-4 min-h-[180px] max-h-[180px]">
           <p>
-            Hi, I'm <span className="text-blue-400 font-medium">Agra</span>, a
+            Hi, I&apos;m <span className="text-blue-400 font-medium">Agra</span>, a
             passionate developer who loves crafting modern and responsive web
             applications. My focus is on building clean, fast, and visually
             appealing digital experiences.
