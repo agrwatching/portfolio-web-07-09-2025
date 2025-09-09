@@ -2,7 +2,7 @@ export default function About() {
   return (
     <section
       id="about"
-      className="relative min-h-screen flex flex-col items-center justify-center bg-[#0b0d1a] text-white px-6 md:pt-12"
+      className="relative min-h-screen flex flex-col items-center md:justify-center bg-[#0b0d1a] text-white px-6 md:pt-0 pt-20"
     >
       {/* Judul */}
       <h2 className="text-3xl font-bold text-center mb-4">
@@ -24,18 +24,12 @@ export default function About() {
         </div>
 
         {/* Deskripsi */}
-        <div className="text-center md:text-left text-gray-400 space-y-4 min-h-[180px] max-h-[180px]">
+        <div className="text-center md:text-left text-gray-400 space-y-4 min-h-[120px] max-h-[180px]">
           <p>
             Hi, I&apos;m <span className="text-blue-400 font-medium">Agra</span>, a
             passionate developer who loves crafting modern and responsive web
             applications. My focus is on building clean, fast, and visually
             appealing digital experiences.
-          </p>
-          <p>
-            With a solid foundation in{" "}
-            <span className="text-purple-400 font-medium">JavaScript</span>,{" "}
-            <span className="text-purple-400 font-medium">TailwindCSS</span>, and{" "}
-            <span className="text-purple-400 font-medium">Next.js</span>, I build projects that are both functional and engaging.
           </p>
         </div>
       </div>

@@ -71,12 +71,12 @@ export default function Contact() {
 
       {/* Komentar */}
       <div className="w-full max-w-2xl bg-[#12162c] p-6 rounded-xl shadow border border-gray-800">
-        <h3 className="text-xl font-semibold mb-4">Comments</h3>
+        <h3 className="text-xl font-semibold mb-4 w-full text-center">Comments</h3>
 
         {!loggedIn ? (
           <button
             onClick={handleLogin}
-            className="px-4 py-2 bg-red-500 rounded hover:bg-red-600 transition"
+            className="px-4 py-2 bg-red-500 rounded hover:bg-red-600 transition w-full text-white mb-4"
           >
             Login with Google
           </button>
@@ -92,13 +92,13 @@ export default function Contact() {
             <div className="flex gap-2">
               <button
                 onClick={addComment}
-                className="px-4 py-2 bg-blue-500 rounded hover:bg-blue-600 transition"
+                className="px-4 py-2 bg-blue-500 rounded hover:bg-blue-600 transition cursor-pointer"
               >
                 {editId !== null ? "Update" : "Post"}
               </button>
               <button
                 onClick={handleLogout}
-                className="px-4 py-2 bg-gray-600 rounded hover:bg-gray-700 transition"
+                className="px-4 py-2 bg-gray-600 rounded hover:bg-gray-700 transition cursor-pointer"
               >
                 Logout
               </button>

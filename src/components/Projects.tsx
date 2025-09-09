@@ -4,9 +4,9 @@ import { useState } from "react";
 export default function Projects() {
   const projects = [
     {
-      title: "Portfolio Website",
+      title: "Senat Website",
       desc: "Personal website built with Next.js and Tailwind CSS.",
-      link: "#",
+      link: "https://senat-stti-sony-sugema.vercel.app/",
     },
     {
       title: "E-Absensi App",
